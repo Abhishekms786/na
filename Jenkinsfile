@@ -8,12 +8,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/Abhishekms786/na.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 script {
