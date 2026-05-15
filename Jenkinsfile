@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "abhishekms786/my-python-app"
+        IMAGE_NAME = "abhishekms2005/my-python-app"
         DOCKERHUB_CREDENTIALS = "dockerhub-creds"
     }
 
